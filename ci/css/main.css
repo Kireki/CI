@@ -1,0 +1,277 @@
+.player
+{
+  margin-left: 0px;
+  margin-top: -20px;
+}
+
+.grooveshark
+{
+  width:230px;
+}
+
+.uploadBtn
+{
+  width:190px;
+}
+
+.song-search
+{
+  margin-top: 50px;
+  margin-left:0px;
+  width: 586px;
+  height: 30px !important;
+  font-size: 18px !important;
+}
+
+.banned-message
+{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;        
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.maincont
+{
+  margin-left:185px;
+}
+
+body
+{
+  background-image:url('http://localhost:8080/ci/img/bg.png')
+}
+
+.gallery
+{
+  margin-left: 10px;
+  float:left;
+  clear: both;
+}
+
+.thumbpic
+{
+  float: left;
+  margin: 1px;
+}
+
+
+.thumbpic img
+{
+  width: 150px;
+  height: 150px;
+  border: 1px outset #000000;
+  -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+  /*-webkit-transition: all 0.5s ease-out;*/
+  /*-moz-transition: all 0.5s ease;*/
+  /*-o-transition: all 0.5s ease;*/
+}
+
+.thumbpic:hover img
+{
+  border-color: #FFCC00;
+/*  -webkit-transform: rotate(-7deg);
+  -moz-transform: rotate(-7deg);
+  -o-transform: rotate(-7deg);*/
+}
+
+#gallery-heading
+{
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  background-color: #dfdfdf;
+}
+
+#gallery-heading h2
+{
+  margin-top: -10px;
+}
+
+.sidebar-box
+{
+  width: 220px;
+}
+
+#upload-box-heading
+{
+  height: 15px;
+  background-color: #dfdfdf;
+  margin-right: -10px;
+  /*margin-left: -10px;*/
+}
+
+#upload-box-heading h3
+{
+  margin-top: -10px;
+}
+
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
+
+.hidden {
+ display: none;   
+}
+
+.fancybox-title a {
+ color: #fff;        
+}
+
+.pagination 
+{
+    float:left;
+    clear:both;
+    margin-left: 7px;
+}
+
+.pagination a, .pagination strong
+{
+    background: #e3e3e3;
+    padding: 4px 7px;
+    font-size: 13px;
+    text-decoration: none;
+    border: 1px solid #cac9c9;
+    color: #292929;
+}
+
+.pagination strong, .pagination a:hover
+{
+    background: #cac9c9;
+    border: 1px solid #999999;
+    font-weight: normal;
+}
+
+.well
+{
+  background-color:white;
+}
+
+.sidebar-box
+{
+  padding-right:30px;
+}
+
+#find-user
+{
+  height:230px;
+}
+
+.menu-entries
+{
+  margin-top:-15px;
+  margin-bottom:-10px;
+  width:230px;
+}
+
+.main-gallery
+{
+  background-color:white;
+  width:920px;
+  margin-left: 205px;
+}
+
+.picRowsBig
+{
+  margin-left:75px;
+}
+
+.popup
+{
+  display: none; width: 500px;
+}
+
+.deleteables
+{
+  float:left;
+}
+
+.error
+{
+  font-weight:bold;
+  color:#F23333;
+}
+
+.message
+{
+  margin: 10px 0px 0px 10px;
+}
+
+.fileupload-new
+{
+
+}
+
+.fileupload-preview
+{
+  max-width: 220px;
+  max-height: 150px;
+}
+
+.dropdown-menu
+{
+  padding: 15px;
+  padding-bottom: 0px;
+}
+
+.frame
+{
+  max-width:854px;
+  margin-top:20px;
+}
+
+.frame div
+{
+  background-color:#DADADA;
+}
+
+.frame img
+{
+  max-height:480px;
+  display:block;
+  margin:0 auto;
+}
+
+.credit
+{
+  text-align:center;
+}
+
+.credit p
+{
+  color:white;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.center-box
+{
+   margin-left:250px;
+   width:400px;
+}
